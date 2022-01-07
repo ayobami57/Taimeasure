@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MenuActivity"
+    android:orientation="vertical"
+    android:background="#fffcec">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="Take Measurement"
+        android:paddingTop="28dp"
+        android:paddingBottom="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#ff9224"
+        android:textColor="#ffffff"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:id="@+id/takemea"
+        android:alpha="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="Check Measurement"
+        android:paddingTop="28dp"
+        android:paddingBottom="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#949449"
+        android:textColor="#ffffff"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+
+        android:alpha="1"
+        android:id="@+id/checkmea"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="Check Schedule"
+        android:paddingTop="28dp"
+        android:paddingBottom="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#1a237e"
+        android:textColor="#ffffff"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:alpha="1"
+        android:id="@+id/update"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="Input Schedule"
+        android:paddingTop="28dp"
+        android:paddingBottom="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#01814a"
+        android:textColor="#ffffff"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:alpha="1"
+        android:id="@+id/input"
+        />
+
+
+
+</LinearLayout>
+</ScrollView>
